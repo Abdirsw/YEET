@@ -99,7 +99,7 @@
   /* Styles just for h1 elements */
   
   h1 {
-    font: var(--header-font); /* Font style stored in the header-font variable */
+    font-family: 'Montserrat', sans-serif; /* Font style stored in the header-font variable */
     padding: 2rem;
     margin: 0; /* Center if the browser is really wide */
   }
@@ -107,7 +107,7 @@
   /* Styles just for h2 elements */
   
   h2 {
-    font: var(--title-font); /* Font style stored in the title-font variable */
+    font-family: 'Montserrat', sans-serif; /* Font style stored in the title-font variable */
     text-align: center; /* Align the text */
     padding: 1.5rem; /* Add some space all around the heading */
   }
@@ -218,7 +218,7 @@
   }
   
   blockquote {
-    font: var(--quote-font);
+    font-family: 'Montserrat', sans-serif;
     color: var(--detail);
     text-align: center;
     padding: 0rem;
